@@ -1,0 +1,226 @@
+* {
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica Neue";
+  font-size: 10px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 5.2rem;
+  line-height: 56px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 32px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 32px;
+}
+
+header {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 48px;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+.menu > li {
+  display: flex;
+  align-items: center;
+  margin: 0px 12px;
+}
+
+.login > label {
+  display: flex;
+  align-items: center;
+  color: #820ad1;
+}
+
+.main-content {
+  background-image: url("../assets/images/home-nubank.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: calc(100vh - 56px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-content .title {
+  max-width: 50%;
+  color: #fff;
+}
+.main-content .title h1 {
+  margin-bottom: 16px;
+}
+
+.form {
+  width: 407px;
+  height: 348px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.form input {
+  width: 100%;
+  height: 40px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 20px;
+  color: rgba(17, 17, 17, 0.7);
+  border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+.form button {
+  width: 100%;
+  height: 48px;
+  padding: 16px;
+  border-radius: 100px;
+  font-size: 1.6rem;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background: #820ad1;
+}
+
+.form button:disabled {
+  background: rgba(17, 17, 17, 0.1);
+  color: rgba(17, 17, 17, 0.2);
+}
+
+.container {
+  padding: 0px 64px;
+}
+
+@media (max-width: 1024px) {
+  .main-content {
+    flex-direction: column;
+    align-items: baseline;
+    padding: 72px 24px;
+  }
+  .form {
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 6.25px;
+  }
+  .main-content {
+    justify-content: flex-end;
+  }
+  .main-content .title {
+    max-width: none;
+  }
+}
+
+.section-cartao {
+  height: 800px;
+  background: #ffffff;
+}
+
+.section-cartao h2 {
+  font-size: 3.4rem;
+  color: #820ad1;
+  margin-left: 64px;
+  margin-top: 322px;
+  font-size: 5.2rem;
+}
+
+.section-cartao h2 a {
+  text-decoration: none;
+  color: #820ad1;
+  line-height: 1.2;
+}
+
+.section-cartao h3 {
+  color: #111111;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 64px;
+}
+
+.cartao {
+  float: left;
+  width: 40%;
+  margin-right: 50px;
+  margin-top: 55px;
+}
+.img-section-cartao {
+  float: left;
+  margin-top: 166px;
+}
+
+.link-saiba-mais {
+  margin-left: 64px;
+  text-decoration: none;
+  color: #820ad1;
+  font-size: 1.6rem;
+}
+
+
+.section-cartao-ultravioleta {
+  height: 800px;
+  background: #ffffff;
+}
+
+
+.section-cartao-ultravioleta h2 {
+  font-size: 3.4rem;
+  color: #820ad1;
+  margin-left: 64px;
+  margin-top: 322px;
+  font-size: 5.2rem;
+}
+
+
+.section-cartao-ultravioleta h2 a {
+  text-decoration: none;
+  color: #820ad1;
+  line-height: 1.2;
+}
+
+
+.img-section-cartao-ultravioleta {
+  float: left;
+  margin-top: 166px;
+}
+  
+.section-cartao-ultravioleta h3 {
+  color: #111111;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 64px;
