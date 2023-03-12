@@ -1,27 +1,47 @@
-# Clone da Interface do Site do Nubank
+## Projeto educacional para prática de HTML e CSS com o clone da interface do site do Nubank.
 
-Este é um projeto de clone da interface do site do Nubank para fins educacionais. O objetivo deste projeto é recriar a interface do usuário e as funcionalidades básicas do site usando HTML, CSS e JavaScript.
+<br />
 
-Todo o layout esta disponivel no figma e pode ser acessado nesse [link](https://www.figma.com/file/Y0d2WsfI9eISjrHjczswGU/Nubank-Clone?t=2YVpI2M1uLYuTn5d-1), pode utilizar o site do [nubank](https://nubank.com.br/) como referência.
+[Clone da interface do site do Nubank](https://bellacristsantos.github.io/clone-interface-nubank/)
 
-## Funcionalidades
+<br />
+<br />
 
-O clone do site do Nubank terá as seguintes funcionalidades:
+![image](https://github.com/bellacristsantos/clone-interface-nubank/blob/master/assets/images/nubank.png)
 
-- Página inicial com informações do Nubank.
-- Responsividade para diferentes tamanhos de tela
+<br />
+<br />
 
-# Instalação
+## :bulb: Clone da interface do site do Nubank - HTML e CSS
+<br />
 
-Para executar o clone do site do Nubank em sua máquina local, siga estas etapas:
 
-1. Clone este repositório em sua máquina local
-2. Abra o arquivo index.html em seu navegador ou em um servidor local
+Projeto em andamento que utiliza o site do Nubank como referência para prática de HTML e CSS.
 
-# Contribuição
 
-Este projeto é destinado para fins educacionais e como tal, pull requests não são aceitos. No entanto, sinta-se à vontade para bifurcar este projeto e usá-lo para seus próprios fins educacionais.
+<br />
 
-# Licença
+## :round_pushpin: Conceitos Desenvolvidos
+<br />
 
-Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+:white_medium_small_square: Definir a estrutura básica do HTML <br />
+:white_medium_small_square: Definir a versão do HTML com a tag DOCTYPE <br />
+:white_medium_small_square: Marcar o conteúdo a ser renderizados com a tag <html> <br />
+:white_medium_small_square: Definir a linguagem da página com a propriedade lang <br /><br />
+ 
+:white_medium_small_square: Uitlizar o CSS com um arquivo externo <br />
+:white_medium_small_square: Entender como funciona o estilo em cascata do CSS <br />
+:white_medium_small_square: Importar um arquivo externo de CSS dentro do HTML <br />
+:white_medium_small_square: Representar cores no CSS com o nome da cor, RGB ou  hexadecimal <br />
+:white_medium_small_square: Criar um identificador para marcar um elemento <br />
+:white_medium_small_square: Referenciar o identificador no CSS <br /><br />
+
+:white_medium_small_square: Criar um formulário HTML com a tag form <br />
+:white_medium_small_square: Utilizar a tag <input>, para a entrada de dados do usuário <br />
+:white_medium_small_square: Criar uma etiqueta para o input, com a tag <label> <br />
+:white_medium_small_square: Conectar um input com o seu label <br /><br />
+
+<br />
+<br />
+
+
